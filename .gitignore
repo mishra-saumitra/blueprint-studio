@@ -37,7 +37,6 @@ yarn-error.log*
 
 # Workspace scaffolding and publication archives
 /.agents/
-/.codex/
 /outputs/
 /work/
 
