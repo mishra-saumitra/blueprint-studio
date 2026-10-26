@@ -6,7 +6,7 @@ Developed for Saumitra Mishra. Blueprint Studio is an independent workspace for 
 
 Describe the reporting requirement or choose one of fifteen report templates. The three-step landscape wizard selects the source system, data warehouse and reporting tool. Supported combinations use SAP S/4HANA or ECC, SAP Datasphere or BW/4HANA, and SAP Analytics Cloud, Fiori, Analysis for Office or Power BI. Embedded Analytics is available for supported S/4HANA designs. Unsupported requirements and combinations produce explicit feedback.
 
-Free templates run locally in the browser. The optional private generation service is disabled until its billing and owner access checks are complete.
+Report templates run locally in the browser without an account or API key.
 
 ## Add custom sources
 
@@ -35,11 +35,11 @@ Manual diagram edges are exploratory visual connections. They do not alter saved
 - Download a paginated PDF design document, Markdown or field-inventory CSV.
 - Copy Markdown or print a complete design document.
 
-Shared links contain the requirement and custom schema. They do not grant access to private generation. Large designs should use JSON export instead of long links.
+Shared links contain the requirement and custom schema. Large designs should use JSON export instead of long links.
 
 ## Validation and limits
 
-The automated tests cover template routing, supported landscapes, source validation, serialization, private-service authorization, output validation, request limits and native exports. Browser acceptance checks cover generation, diagrams, custom sources, saving, phase navigation, portable sharing and downloads.
+The automated tests cover template routing, supported landscapes, source validation, serialization, output validation and native exports. Browser acceptance checks cover generation, diagrams, custom sources, saving, phase navigation, portable sharing and downloads.
 
 Blueprints are design assistance. Source compatibility, financial grain, currencies, fiscal calendars, authorization and generated code require review in the target SAP system. The application does not connect to or execute changes in an SAP tenant.
 
