@@ -1,0 +1,7 @@
+SAP Business Technology Platform solution diagram component icons
+Copyright 2024 SAP SE or an SAP affiliate company and btp-solution-diagrams contributors
+Source: https://github.com/SAP/btp-solution-diagrams
+License: Apache-2.0 (see SAP-BTP-Apache-2.0.txt)
+The upstream REUSE.toml applies this copyright and license to ** with aggregate precedence.
+Retrieved 26 October 2026. SVG file contents are unmodified; local filenames were shortened.
+Icons identify SAP Datasphere, SAP Analytics Cloud, SAP HANA Cloud and SAP Integration Suite in architecture diagrams. No SAP corporate logo is included. This independent application is not endorsed by SAP.
