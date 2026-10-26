@@ -19,7 +19,6 @@ npm run dev
 
 The public app runs entirely in the browser with 15 report templates and a curated 42-table catalog. Choose a reporting requirement and landscape, add optional custom schemas, then explore the blueprint, table map, architecture, implementation phases and code examples. Save designs locally, create portable share links, and download PDF, Excel, Markdown, CSV or JSON files.
 
-The optional private generation service is currently disabled. The public app requires no API key. Secrets and paid-generation access are managed only by the private backend.
 
 ## Verification
 
@@ -27,10 +26,9 @@ The optional private generation service is currently disabled. The public app re
 node --experimental-strip-types --test tests/*.test.ts
 npx tsc --noEmit
 npm run build
-npx vite build --config vite.demo.config.ts
+
 ```
 
-The optional `scripts/live-smoke.ts` makes a billable API call only when explicitly run with a key supplied through the environment. It never prints that key. Do not put it in CI.
 
 ## Scope and ownership
 
