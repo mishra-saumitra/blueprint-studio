@@ -37,7 +37,7 @@ Use **Blueprint Studio** as the independent product name; describe it as “Repo
 
 SAP-owned UI resources can provide authentic UI vocabulary without corporate-logo branding. `SAP/theming-base-content` and `SAP/fundamental-styles` publish Apache-2.0 licenses. Fundamental Styles documents its dependency on theming-base-content for icons/fonts. If vendoring their assets, pin a version and preserve its license and applicable notices. Their software licenses do not grant SAP trademark rights. [Theming Base Content](https://github.com/SAP/theming-base-content), [license](https://raw.githubusercontent.com/SAP/theming-base-content/master/LICENSE.txt), [Fundamental Styles](https://github.com/SAP/fundamental-styles), [license](https://raw.githubusercontent.com/SAP/fundamental-styles/main/LICENSE)
 
-## Useful additions beyond visual replication
+## Product design recommendations
 
 1. A source-release and extraction-readiness checklist with verified documentation links.
 2. A visible assumptions panel: client, ledger, fiscal calendar, currency, language, key date and fact grain.
@@ -47,4 +47,4 @@ SAP-owned UI resources can provide authentic UI vocabulary without corporate-log
 6. Export provenance: requirement, selected options, generator version, creation date and reference links.
 7. Portable JSON import/export and browser-local saved designs; these work on static hosting without implying a live SAP connection.
 
-These are recommendations. UI feature parity and actual original-site behavior must be recorded separately in the reverse-engineering evidence ledger.
+These recommendations support the product roadmap. Validate implemented behavior with the application test suite and browser acceptance checks.
